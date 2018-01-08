@@ -31,7 +31,7 @@ def distance(latlngA, latlngB):
     
 
 if __name__ == "__main__":
-    print("testing geodist")
+    print("Testing geodist.py")
     assert round(distance((50.413905, -3.976364), (50.448022, -3.812943))) == 8
     assert round((distance((50.2095615, -4.5627776), (50.2309890, -4.0639060)))) == 22
     assert round((distance((50.410723, -3.780584), (50.414926, -3.802085)))) == 1
